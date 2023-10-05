@@ -1,0 +1,5 @@
+src/database/migration
+src/database/seeder
+src/tests
+build/
+node_modules/
