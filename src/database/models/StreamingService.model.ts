@@ -1,6 +1,6 @@
 import { DataTypes, Model, ModelDefined, Optional } from "sequelize";
 import db from ".";
-import IStreamingService from "../../Interface/Model/StreamingService";
+import IStreamingService from "../../Interfaces/Model/StreamingService";
 
 type StreamingServiceInputTableField = Optional<IStreamingService, 'id'>
 type StreamingServiceModelType = ModelDefined<IStreamingService, StreamingServiceInputTableField>

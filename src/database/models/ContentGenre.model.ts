@@ -1,6 +1,6 @@
 import { DataTypes, Model, ModelDefined, Optional } from "sequelize";
 import db from ".";
-import IContentGenre from "../../Interface/Model/ContentGenre";
+import IContentGenre from "../../Interfaces/Model/ContentGenre";
 import ContentModel from "./Content.model";
 import GenreModel from "./Genre.model";
 

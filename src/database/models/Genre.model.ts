@@ -1,6 +1,6 @@
 import { DataTypes, Model, ModelDefined, Optional } from "sequelize";
 import db from ".";
-import IGenre from "../../Interface/Model/Genre";
+import IGenre from "../../Interfaces/Model/Genre";
 
 type GenreInputTableField = Optional<IGenre, 'id'>
 type GenreModelType = ModelDefined<IGenre, GenreInputTableField>

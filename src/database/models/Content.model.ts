@@ -1,6 +1,6 @@
 import { DataTypes, Model, ModelDefined, Optional } from "sequelize";
 import db from ".";
-import IContent from "../../Interface/Model/Content";
+import IContent from "../../Interfaces/Model/Content";
 
 type ContentInputTableField = Optional<IContent, 'id'>
 type ContentModelType = ModelDefined<IContent, ContentInputTableField>
